@@ -1,0 +1,18 @@
+
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 26px;
+    transform: translateY(50px);
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
