@@ -1,12 +1,17 @@
 
-.navbar{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    height: 26px;
-    transform: translateY(50px);
-    color: white;
+.navbar {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;  /* 👈 fix at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent; /* so background shows */
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+  color: white;
+  z-index: 1000; /* stay above content */
 }
 
 .nav-links{

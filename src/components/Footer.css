@@ -3,6 +3,9 @@
     background-color: blueviolet;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
     /* display: flex; */
     /* justify-content: space-between; */
     /* align-items: center; */

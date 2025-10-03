@@ -5,7 +5,6 @@ import { Footer } from "../components/Footer";
 export function HomePage(){
     return(
         <>
-        <NavBar/>
         <CenterHero/>
         </>
         

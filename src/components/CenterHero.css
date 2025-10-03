@@ -5,8 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;   
     transform: translateY(-50px);
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .center-hero p{
